@@ -21,7 +21,7 @@ namespace COMP003B.Assignment3.Models
         [Range(1,10)]
         public string Tickets { get; set; }
 
-        public int ReferralCode { get; set; }
+        public string ReferralCode { get; set; }
 
     }
 }
