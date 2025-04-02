@@ -19,7 +19,7 @@ namespace COMP003B.Assignment3.Controllers
         }
 
         [HttpPost]
-        public IActionResult RegisterPost([FromForm] EventRegistration registration)
+        public IActionResult Register([FromForm] EventRegistration registration)
         {
             if (!ModelState.IsValid)
             {
