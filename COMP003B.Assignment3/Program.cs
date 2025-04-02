@@ -1,3 +1,10 @@
+/*
+ * Author: Jason Salinas
+ * Course: COMP-003B: ASP.NET Core
+ * Faculty: Jonathan Cruz
+ * Purpose: 3.7 Coding Assignment: MVC Routing, Model Binding, and Validation 
+ * 
+ */
 namespace COMP003B.Assignment3
 {
     public class Program
