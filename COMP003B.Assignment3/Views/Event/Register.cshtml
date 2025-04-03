@@ -3,6 +3,7 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 @model COMP003B.Assignment3.Models.EventRegistration
+<partial name="_EventNav" />
 
 <!-- Create the form -->
 <h2>Event Registration</h2>
@@ -32,7 +33,7 @@
         <input asp-for="ReferralCode" class="form-control" />
         <span asp-validation-for="ReferralCode" class="text-danger"></span>
     </div>
-    <button type="submit" class="btn btn-primary">Sumbit</button>
+    <button type="submit" class="btn btn-primary">Register</button>
 </form>
 
 @section Scripts {

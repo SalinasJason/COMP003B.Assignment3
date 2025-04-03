@@ -3,9 +3,10 @@
 	Layout = "~/Views/Shared/_Layout.cshtml";
 }
 @model COMP003B.Assignment3.Models.EventRegistration
+<partial name="_EventNav" />
 
 <h2>Registraction Successful!</h2>
 <p>Thank you, @Model.FullName!</p>
 <p>The email you entered is @Model.Email</p>
 <p>You have successfully registered for <strong>@Model.EventCode</strong> with <strong>@Model.Tickets</strong> ticket(s).</p>
-<p>Referral Code: @Model.ReferralCode</p>
+<p>Referral Code: @Model.ReferralCode</p
